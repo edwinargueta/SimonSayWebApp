@@ -7,9 +7,19 @@ h1 {
 }
 
 #displayMessage {
-    display: hidden;
+    /* display: hidden; */
     max-width: 100%;
-    padding: 20px;
+    padding: auto;
+    background-color: rgba(93, 188, 252, 0.966);
+    display:flex;
+    max-width: 500px;
+    justify-content: center;
+    margin: 20px auto 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    height: auto;
 }
 
 .game {
